@@ -1,9 +1,9 @@
 FROM node:16
 
 # Create app directory
-WORKDIR /app/express-01
+WORKDIR /app
 
-COPY . /app/express-01
+COPY . /app
 
 RUN npm install
 # If you are building your code for production
